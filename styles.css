@@ -2,3 +2,13 @@ h1{
     color: cadetblue;
     font-family: monospace;
 }
+
+img{
+    width: 300px;
+    height: auto;
+}
+
+video{
+    width: 300px;
+    height: auto;
+}
