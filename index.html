@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--link con el que se vincula al CSS-->
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Sobre Mi</Sobre-Mi></title>
 </head>
 <body>
     <!--Presentacion-->
@@ -15,16 +17,16 @@
     <!--navegador-->
     <nav>
         <ul>
-            <li><a href="#">Datos Básicos</a></li>
-            <li><a href="#">Imagenes</a></li>
-            <li><a href="#">Video</a></li>
+            <li><a href="#datos">Datos Básicos</a></li>
+            <li><a href="#imagen">Imagenes</a></li>
+            <li><a href="#video">Video</a></li>
         </ul>
     </nav>
 
     <!--articulos principales-->
     <main>
         <article>
-                <h2>Datos Básicos</h2>
+                <h2 id="datos">Datos Básicos</h2>
                     <ul>
                         <li>Edad: 38 Años</li>
                         <li>Nacionalidad: Argentino</li>
@@ -47,19 +49,25 @@
                     <ol>
                         <li>Trabajos como tecnico ELECTRONICO</li>
                         <li>Cursos de testing (WEB y APP)</li>
+                        <li>Cursos de desarrollo web (Argentina Programa - FAMAF)</li>
+                        <li>Cursos de HTML / CSS (Autodidacta)</li>
                     </ol>
         </article>
     </main>
 
     <!--articulos secundarios-->
     <aside>
-        <h3>Imagenes</h3>
+
+        <!--imagen-->
+        <h2 id="imagen">Imagenes</h2>
         <figure>
             <img src="IKKI.jpeg" alt="El es ikki mi perrihijo">
         </figure>  
             <figcaption>El es mi perrihijo se llama IKKI</figcaption> 
 
-        <h3>Video</h3>
+
+        <!--Video-->
+        <h2 id="video">Video</h2>
         <figure>
             <video src="ikki.mp4" alt="un video en el que IKKI pasea sin correa" controls></video>
         </figure>
@@ -68,7 +76,8 @@
 
     <!--Pie de Pagina-->
     <footer>
-
+        <p>Todos los derechos reservados a cualquiera</p>
+        <p>muchas gracias por su visita</p>
     </footer>
 </body>
 </html>
