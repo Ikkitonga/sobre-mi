@@ -10,37 +10,48 @@
 
 <body>
     <header>
-        <h1>Calculadora Simple</h1>
+        <h1>Calculadora</h1>
     </header>
+    <div>
+        <aside>
+            <h2>Manualcito</h2>
 
-        
-    <main>
-        <div class="operando">
-            <input type="number" id="num1">
-        </div>
+            <ol>
+                <li>Pon un numero en Operador 1.</li>
+                <li>Luego toca la operacion que quieras hacer por Ej "+".</li>
+                <li>Y pon otro número en el Operador 2.</li>
+                <li>Por ultimo toca el "=" y te dara el resultado.</li>
+                <li>para una nueva operacion toca "C" que es borrar.</li>
+            </ol>
+        </aside>
 
-        <!-- use botones en ves de un desplegable para los 
+        <main>
+            <div class="operando">
+                <input type="number" id="num1" placeholder="Operador 1">
+            </div>
+
+            <!-- use botones en ves de un desplegable para los 
         signos-->
-        <div class="botones1">
-            <button id="sumar" class="numero">+</button>
-            <button id="restar" class="numero">-</button>
-            <button id="multiplicar" class="numero">*</button>
-            <button id="dividir" class="numero">/</button>
-        </div>
+            <div class="botones1">
+                <button id="sumar" class="numero">+</button>
+                <button id="restar" class="numero">-</button>
+                <button id="multiplicar" class="numero">x</button>
+                <button id="dividir" class="numero">/</button>
+            </div>
 
-        <div>
-            <input type="number" id="num2">
-        </div>
-        
-        <div class="botones2">
-            <button id="borrar" class="numero">C</button>
-            <button id="calcular" class="numero enter">=</button>
-        </div>
-        <div class="resultado">
-            <input type="text" class="salida" id="result" readonly>
-        </div>
-    </main>
+            <div>
+                <input type="number" id="num2" placeholder="Operador 2">
+            </div>
 
+            <div class="botones2">
+                <button id="borrar" class="numero">C</button>
+                <button id="calcular" class="numero enter">=</button>
+            </div>
+            <div class="resultado">
+                <input type="text" class="salida" id="result" readonly placeholder="Resultado">
+            </div>
+        </main>
+    </div>
     <script src="calculadora.js"></script>
 </body>
 
