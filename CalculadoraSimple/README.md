@@ -1,7 +1,8 @@
 # Proyecto Calculadora Simple.
 
-Antes que nada GRACIAS por visitar mi Repo
-Este es mi primer proyecto al cual le incluyo un readme.
+Antes que nada GRACIAS por visitar mi Repo.
+- Este es un proyecto de una calculadora simple, la cual se encuentra enfocado a aprender el uso del lenguaje
+
 
 ### funcionamiento de la calculadora
 
