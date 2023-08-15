@@ -13,27 +13,35 @@
         <h1>Calculadora Simple</h1>
     </header>
 
+        
     <main>
         <div class="operando">
-            <input type="text">
+            <input type="number" id="num1">
         </div>
+
+        <!-- use botones en ves de un desplegable para los 
+        signos-->
         <div class="botones1">
-            <button id="btnSumar">+</button>
-            <button id="btnRestar">-</button>
-            <button id="btnMultiplicar">*</button>
-            <button id="btnDividir">/</button>
+            <button id="sumar" class="numero">+</button>
+            <button id="restar" class="numero">-</button>
+            <button id="multiplicar" class="numero">*</button>
+            <button id="dividir" class="numero">/</button>
         </div>
+
         <div>
-            <input type="text">
+            <input type="number" id="num2">
         </div>
+        
         <div class="botones2">
-            <button id="borrar">C</button>
-            <button id="calcular">=</button>
+            <button id="borrar" class="numero">C</button>
+            <button id="calcular" class="numero enter">=</button>
         </div>
-        <div class="result">
-            <output>Resultado:</output>
+        <div class="resultado">
+            <input type="text" class="salida" id="result" readonly>
         </div>
     </main>
+
+    <script src="calculadora.js"></script>
 </body>
 
 </html>

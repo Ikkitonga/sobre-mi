@@ -61,10 +61,5 @@ button{
 
 .result{
     position: absolute;
-    left: 85px;
     bottom: 35px;
-}
-
-output{
-    font-size: 30px;
 }
