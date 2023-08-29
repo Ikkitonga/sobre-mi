@@ -1,0 +1,174 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Turret Road', cursive;
+}
+
+/* body{
+    margin: 10px;
+    background-image: url('https://i.pinimg.com/736x/50/d2/2b/50d22bc406525475d0da6f1158ea1b29.jpg');
+    background-size: cover;
+} */
+    /* estilos para el header */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+h1{
+    font-size: 3rem;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* estilos contenedor input - tablero */
+
+.contenedor-input-tablero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+label{
+    font-size: 1.3rem;
+}
+
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    width: auto;
+    padding: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input[type=text]{
+    font-family: 'Turret Road', cursive;
+    width: 15rem;
+    height: 2rem;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    border: 1px solid;
+}
+
+.inicio{
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.tablero{
+    padding: 20px;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.score>p{
+    font-size: 1.5rem;
+}
+
+.btnReinicio{
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+
+#saludo{
+    font-weight: bold ;
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 1rem;
+   
+}
+
+/* estilos div eleccion jugador */
+.eleccion-resultado{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.eleccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.titulo-eleccion{
+   font-size: 2rem;
+}
+
+.botones-eleccion{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 2px 2px black;
+}
+
+.botones{
+    box-shadow: 2px 2px black;
+    margin: 10px;
+}
+
+.imagenes{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 5px;
+}
+
+.botones:focus{
+    border: 3px solid crimson;
+}
+
+.resultado{
+    flex-direction: column;
+}
+
+/* estilos para eleccion pc */
+
+#partida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+#eleccion-depc{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px){
+
+}
+
+
+
+
+
+@media screen and (max-width: 320px){
+    body{
+        font-size: 1rem;
+    }
+}
+

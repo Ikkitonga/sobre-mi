@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@500&display=swap" rel="stylesheet">
+    <title>Piedra Papel o Tijeras</title>
+</head>
+
+<body>
+
+    <!-- Estilos header -->
+    <header>
+        <h1>Piedra Papel o Tijeras</h1>
+    </header>
+
+    <main>
+        <!-- Estilos name -->
+        <div class="contenedor-input-tablero">
+            <div class="name">
+                <label for="name"><b>Ingrese nombre del jugador:</b></label>
+
+                <input type="text" id="nombre">
+                <button class="inicio" onclick="saludar()">Inicio</button>
+
+                <div id="saludo">
+                </div>
+            </div>
+            <div class="tablero">
+                <div class="score">
+                    <p>Partidos jugados: <span id="partidos-jugados">0</span></p>
+                    <p>Puntuación PC: <span id="puntuacion-pc">0</span></p>
+                    <p>Tu puntuación: <span id="tu-puntuacion">0</span></p>
+                </div>
+
+                <div class="game">
+                    <!-- Botones de elección de usuario ... -->
+                    <button class="btnReinicio" onclick="reiniciarJuego()">Reiniciar Juego</button>
+                    <!-- Resto de tu código ... -->
+                </div>
+            </div>
+        </div>
+        <!-- Estilos eleccion -->
+        <div class="eleccion-resultado">
+            <div class="eleccion">
+                <h3 class="titulo-eleccion">Elija su juego</h3>
+                <div class="botones-eleccion">
+                    <button class="botones" id="papel"><img class="imagenes" id="imagen-papel"
+                            src="./imagenes/papel1.jpg" alt="papel">
+                    </button>
+
+                    <button class="botones" id="piedra"><img class="imagenes" id="imagen-piedra"
+                            src="./imagenes/piedra.jpg" alt="piedra">
+                    </button>
+
+                    <button class="botones" id="tijeras"><img class="imagenes" id="imagen-tijeras"
+                            src="./imagenes/tijeras.jpg" alt="tijeras">
+                    </button>
+                </div>
+
+            </div>
+
+
+            <div class="resultado">
+                <div id="partida">
+                    <div></div>
+                </div>
+
+                <div id="eleccion-depc">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="piedraPapelTijeras.js"></script>
+</body>
+
+</html>
